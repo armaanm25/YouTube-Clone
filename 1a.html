@@ -1,12 +1,12 @@
-<a href="https://www.amazon.com/" target="_blank">
+<a class="amazon-link" href="https://www.amazon.com/" target="_blank">
   Back to Amazon
 </a>
 
-<p>
+<p class="title">
   Nike Black Running Shoes
 </p>
 
-<p>
+<p class="price">
   $39 - in stock.
 </p>
 
@@ -15,6 +15,20 @@
 </p>
 
 <style>
+  .amazon-link {
+    color: grey
+  }
+  .amazon-link:hover {
+    color: rgb(123, 100, 11)
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .price {
+    color:rgb(200, 125, 13);
+    font-weight: bold;
+  }
   .amazon-button {
     background-color: rgb(255, 216, 20);
     height: 34px;
@@ -23,6 +37,13 @@
     border-radius: 17px;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+  .amazon-button:hover {
+    background-color: rgb(232, 200, 43);
+  }
+  .amazon-button:active {
+    opacity: 0.5;
   }
   .buy-now-button {
     background-color: rgb(255, 164, 28);
@@ -33,6 +54,13 @@
     font-weight: bold;
     cursor: pointer;
     margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+  .buy-now-button:hover {
+    background-color: rgb(200, 125, 13);
+  }
+  .buy-now-button:active {
+    opacity: 0.5;
   }
 </style>
 

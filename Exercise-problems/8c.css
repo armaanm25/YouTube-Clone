@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-left: 350px;
+}
+.search-bar{
+  font-size: 14px;
+  width: 500px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-top: 0px;
+  margin-left: 200px;
+}

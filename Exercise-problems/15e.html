@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+      .img {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+      }
+      .discount {
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        top: 10px;
+        right: 0;
+        padding: 8px 12px;
+      }
+      .cart {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.718);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        position: absolute;
+        background-color: white;
+        border: 1px black solid;
+        padding: 10px 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="discount">20% OFF</div>
+      <img class="img" src="shirt.png" alt="shirt" />
+      <div class="cart">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
